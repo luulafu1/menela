@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    color:  #182815;
+}
+
+ html,body {
+    font-family: 'Roboto Slab', serif;
+ }
+
+
+.contenedor {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    transition: all 1s linear;
+}
+
+
+header {
+    background-color: #c5aa6c;
+    overflow: auto;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+}
+
+h1 {
+    background-image: url(../imagenes/logo.png);
+    width: 211px;
+    height:105px;
+    font-size: 0;
+    float: left;
+    animation: menu 2s ease-in 0s 1 normal forwards;
+}
+
+h1 a {
+    height: 100%;
+    display: block;
+}
+ 
+    @keyframes menu {
+    0% {
+      opacity: 0;
+      transform: translateX(-250px);
+    }
+    
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    } 
+} 
+
+h1, nav {
+    display: inline-block;
+    vertical-align: middle;
+} 
+
+nav {
+    float: right;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+nav ul li a {
+  
+    letter-spacing: 2px;
+    display: block;
+    color:  #182815;
+    padding: 15px;
+    font-size: 15px;
+    animation: secciones 2s ease-in 0s 1 normal forwards;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1.5em; 
+}
+
+nav ul li {
+    text-transform: uppercase;
+    color: #182815;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+nav ul li:hover a {
+    background-color: #76c482;
+    color: #182815;
+    transition: all 1s linear;
+    
+}
+
+@keyframes secciones {
+    0% {
+      opacity: 0;
+      transform: translateX(250px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+
+
+/*home*/
+
+.lentes {
+    width: 1300px;
+    height: 355px;
+    margin-top: 40px;
+    margin-left: 300px;
+}
+
+.contenedorbanner1 {
+    width: 1200px;
+    height: 260px;
+    margin-top: 40px;
+    margin-left: 350px;
+}
+
+/*nosotros*/
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 180px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-indent: 20px;
+    box-sizing: border-box
+
+}
+
+.contenedor p {
+    font-size: 20px; 
+}
+
+.anteojosdesol {
+    width: 1200px;
+    height: 260px;
+    margin-top: 60px;
+    margin-left: 120px;
+    opacity: 0.70; 
+}
+
+ /*TIENDA*/
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-indent: 20px;
+    box-sizing: border-box;
+
+}
+
+.contenedor .parrafocentrado {
+    text-align: center;  
+    font-size: 32px;
+   
+}  
+
+.tienda {
+    width: 280px;
+    height: 334px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-top: 80px;
+  
+     }
+
+.contenedorcarrito{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+   .carrito {
+    text-align: center;
+    font-size: 14px;
+    margin: 60px;
+    padding: 5px;
+    border-radius: 15px;
+    width: 165px;
+    display: inline-block;
+    color: #182815;
+    background-color: #c5aa6c;
+    transition: all 300ms;   
+    position: relative;
+}
+
+ .carrito:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+ }
+    
+ .contenedorvermas{
+    width: 1200px;
+    margin: 0 auto;
+ }
+
+.vermas {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 550px;
+    padding: 5px;
+    width: 100px;
+    color: #182815;
+    background-color: white;
+    border: 2px solid #182815 ;
+    transition: all 300ms;   
+    position: relative;
+}
+
+.vermas:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+ 
+
+ /*MERCHANDISING*/
+
+.banner2 {
+    background-image:url(../imagenes/bannermer.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.merch {
+    width: 380px;
+    height: 460px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+.merchp {
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+
+/* CONTACTO*/ 
+
+
+.mapa {
+    width: 1180px;
+    height: 200px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 370px;
+    margin-top: 50px;
+}
+
+.contenedorcontacto{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+   .contacto {
+    text-align: center;
+    font-size: 20px;
+    margin: 48px;
+    padding: 5px;
+    border-radius: 15px;
+    width: 190px;
+    display: inline-block;
+    color: #182815;
+    background-color: #76c482;
+    transition: all 300ms;   
+    position: relative;
+}
+
+ .contacto:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+ }
+    
+
+
+.pagos {
+    width: 1200px;
+    margin-top: 30px;
+    margin-left: 360px;
+    
+} 
+
+/* Footer */
+
+.footer {
+    background-color: #182815;
+    color: #c5aa6c;
+    font-size: 8px;
+    padding: 20px;
+    margin-top: 10px;
+    width: auto;
+    text-align: left;
+}
